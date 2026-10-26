@@ -1,0 +1,28 @@
+# --- Core data handling ---
+pandas>=2.1,<3.0
+numpy>=1.26,<2.0
+
+
+# --- Visualization (Activity 7) ---
+matplotlib>=3.8,<4.0
+
+
+# --- Data acquisition ---
+requests>=2.31,<3.0
+pymongo>=4.6,<5.0
+
+
+# --- Mock API server ---
+# DataSet/mock_api.py
+# DataSet/Practice/mock_api.py
+fastapi>=0.110,<1.0
+uvicorn>=0.29,<1.0
+
+
+# --- Parquet persistence (Exercise 8.2) ---
+pyarrow>=14.0
+
+
+# --- Notebook runtime ---
+jupyter>=1.0
+ipykernel>=6.25
